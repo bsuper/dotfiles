@@ -12,7 +12,4 @@ echo 'VIM install...'
 echo "Running ZSH installation..."
   zsh zsh_install.sh
 
-echo 'Running bootstrapper ...'
-  sh bootstrap.sh
-
 echo "You're all clear to start working!"
