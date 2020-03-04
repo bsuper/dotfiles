@@ -9,7 +9,7 @@ It can be run multiple times on the same machine safely. It installs, upgrades, 
 1. `zsh` instead of `bash`. The main benefit is path autocompletion.
 2. Uses `brew cask` to install many apps. This allows third party apps to be placed in a single folder separate from the main applications folder. A symlink is used add itself to the `/Applications` folder.
 
-### Brief Installations
+### Quick Installation Instructions
 
 ```
 cd ~/Downloads && git clone https://github.com/bsuper/dotfiles.git
