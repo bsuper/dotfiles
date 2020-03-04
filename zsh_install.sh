@@ -17,13 +17,13 @@ cd fonts
 cd ~/Downloads/dotfiles
 mv ~/Downloads/dotfiles/prompt_* ~/.zprezto/modules/prompt/functions/
 
-# Add dependencies for the agnoster prompt.
-cd ~/Downloads
-mkdir -p ~/.sources/
-curl https://cloud.github.com/downloads/digitalformula/zsh.prompts/get-short-path.zsh.zip > ~/Downloads/get-short-path.zsh.zip
-unzip ~/Downloads/get-short-path.zsh.zip
-mv ~/Downloads/get-short-path.zsh ~/.sources/
-curl https://cloud.github.com/downloads/digitalformula/zsh.prompts/git-omz.zsh.zip > ~/Downloads/git-omz.zsh.zip
-unzip ~/Downloads/git-omz.zsh.zip
-mv ~/Downloads/git-omz.zsh ~/.sources/
-cd
+# Add dependencies for the agnoster prompt. [Deprecated]
+# cd ~/Downloads
+# mkdir -p ~/.sources/
+# curl https://cloud.github.com/downloads/digitalformula/zsh.prompts/get-short-path.zsh.zip > ~/Downloads/get-short-path.zsh.zip
+# unzip ~/Downloads/get-short-path.zsh.zip
+# mv ~/Downloads/get-short-path.zsh ~/.sources/
+# curl https://cloud.github.com/downloads/digitalformula/zsh.prompts/git-omz.zsh.zip > ~/Downloads/git-omz.zsh.zip
+# unzip ~/Downloads/git-omz.zsh.zip
+# mv ~/Downloads/git-omz.zsh ~/.sources/
+# cd
