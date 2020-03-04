@@ -126,17 +126,17 @@ nnoremap <leader>t :TagbarToggle<CR>
 " }}}
 
 " You Complete Me! {{{
-let g:ycm_global_ycm_extra_conf = "~/.vim/plugged/youcompleteme/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py"
-let g:ycm_autoclose_preview_window_after_insertion = 1
-let g:ycm_collect_identifiers_from_tags_files = 1
-let g:ycm_seed_identifiers_with_syntax = 1
+" let g:ycm_global_ycm_extra_conf = "~/.vim/plugged/youcompleteme/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py"
+" let g:ycm_autoclose_preview_window_after_insertion = 1
+" let g:ycm_collect_identifiers_from_tags_files = 1
+" let g:ycm_seed_identifiers_with_syntax = 1
 " https://github.com/Valloric/YouCompleteMe/issues/1018
 " let g:ycm_path_to_python_interpreter = '/usr/bin/python'
-let g:ycm_server_use_vim_stdout = 0
-let g:ycm_server_keep_logfiles = 1
-let g:ycm_server_log_level = 'debug'
+" let g:ycm_server_use_vim_stdout = 0
+" let g:ycm_server_keep_logfiles = 1
+" let g:ycm_server_log_level = 'debug'
 
-map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
+" map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
 "python with virtualenv support
 py << EOF
@@ -226,7 +226,7 @@ Plug 'majutsushi/tagbar'
 Plug 'airblade/vim-gitgutter'
 
 " You complete me!
-Plug 'valloric/youcompleteme', { 'do': './install.py --clang-completer' }
+" Plug 'valloric/youcompleteme', { 'do': './install.py --clang-completer' }
 
 " Easymotion
 Plug 'easymotion/vim-easymotion'
