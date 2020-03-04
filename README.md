@@ -9,6 +9,22 @@ It can be run multiple times on the same machine safely. It installs, upgrades, 
 1. `zsh` instead of `bash`. The main benefit is path autocompletion.
 2. Uses `brew cask` to install many apps. This allows third party apps to be placed in a single folder separate from the main applications folder. A symlink is used add itself to the `/Applications` folder.
 
+### Brief Installations
+
+```
+cd ~/Downloads && git clone https://github.com/bsuper/dotfiles.git
+cd dotfiles
+./install.sh
+
+echo "zsh" > ~/.bashrc # or add it to ~/.bashrc at the very bottom if it's already exists
+
+# Open VIM and type :PlugInstall
+mv ~/.vim/plugged/vim-colors-solarized/colors ~/.vim/
+
+# In the terminal settings change the font to one of the fonts that says "... for Powerline"
+
+```
+
 ### Installation
 
 Note: Since this script is poorly written, files will be created, modified, and deleted in `~/Downloads`. But, you can clone this repo anywhere and this repo will automatically transfer its contents to `~/Downloads` before anything else happens.
